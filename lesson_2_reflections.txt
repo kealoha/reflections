@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+When you run "git init", it creates a .git folder (hidden) that will be initialized but empty, sicne you haven't made any commits yet.  When you run "git status", it will show you the files that are in the directory, but currently none are being tracked.
