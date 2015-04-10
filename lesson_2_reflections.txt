@@ -26,3 +26,9 @@ How do the diagrams help you visualize the branch structure?
 
 It helps show how commits can continue to be submitted concurrently within different branches, even though they have a common parent. It also helps visualize reachability, in that a previous commit is only reachable within its own branch. 
 git log --graph --oneline firstbranch secondbranch
+
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When you merge two branches together (git checkout master, git merge branch1 branch2) it will retain anything that is in both branches, and then look back at the common parent of the 2 branches and do 2 things 1) remove anything that was originally in the parent but has been removed and 2) add new things that were not in the parent.  It is represented as such in the diagram because the new branch usually merges back into the master? Idk
