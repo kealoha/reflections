@@ -13,3 +13,9 @@ How can you use the staging area to make sure you have one commit per logical ch
 
 git diff (no args) - compares working directory to staging area
 git diff --staged - compares staging area to most recent commit in repository
+
+
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+A branch would be helpful when you want to make changes (experimental, new language) but still want a working copy of your original project.
