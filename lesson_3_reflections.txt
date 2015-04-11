@@ -1,5 +1,9 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
-It would be preferrable to maintain a remote repository if you are working on more than one computer
-or if you are collaborating with others, since they would not have access to your local machine.  It would also
-make sense to back up to a remote repository in case of hardware failure.
+It would be preferrable to maintain a remote repository if you are working on more than one computer or if you are collaborating with others, since they would not have access to your local machine.  It would also make sense to back up to a remote repository in case of hardware failure.
+
+
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+If Git automatically pulled from the remote repository, it may overwrite uncommitted changes on your local machine.  For example, one of your teammates could have committed updates while you were working on something else.
