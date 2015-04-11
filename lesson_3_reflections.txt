@@ -7,3 +7,9 @@ It would be preferrable to maintain a remote repository if you are working on mo
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 
 If Git automatically pulled from the remote repository, it may overwrite uncommitted changes on your local machine.  For example, one of your teammates could have committed updates while you were working on something else.
+
+
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+A branch is when you have two different working versions based off of the same parent (remember master and easy-mode).  This may be for adding a new feature or something experimental.  It may eventually be merged back to the master branch.  A clone is when you make a complete copy of a repository, from remote to local or even local to local.  You can push and pull between local and remote repositories.  I'm not sure if the same goes for local to local, but I would assume it's possible.  A fork is when you clone a repository within GitHub.  For example, you want to use someone else's repository but you aren't listed as a collaborater (and can't push/pull).  You can fork their repository and do your own development independently.
